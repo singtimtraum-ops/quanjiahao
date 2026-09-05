@@ -1,0 +1,867 @@
+[
+  {
+    "path": "source/baiyoujie-next/.github/workflows/build.yml",
+    "bytes": 722,
+    "sha256": "B9ED51D3E90987F8201C97F4D4B40DA9A679414A9EFD6CD763D16F9171DA7612"
+  },
+  {
+    "path": "source/baiyoujie-next/.github/PULL_REQUEST_TEMPLATE.md",
+    "bytes": 488,
+    "sha256": "E895FEF895A298CBA1E1361B30F1EC9C1E9FF29E6399356BCB125BFFCA6CCC26"
+  },
+  {
+    "path": "source/baiyoujie-next/acquisition/accessibility/src/main/kotlin/cn/edu/ruc/zhixing/acquisition/accessibility/AccessibilityAcquirer.kt",
+    "bytes": 3341,
+    "sha256": "0AAFCF083927F9D166D5A93D61C26BB3057EF16734149B1AF43CA04F8C2F17DA"
+  },
+  {
+    "path": "source/baiyoujie-next/acquisition/accessibility/src/main/res/values/strings.xml",
+    "bytes": 373,
+    "sha256": "27A0F7A581FB0B6BBC2589F99CE2B2D4285C24F4391123647390696ECDF4E2F0"
+  },
+  {
+    "path": "source/baiyoujie-next/acquisition/accessibility/src/main/res/xml/accessibility_service_config.xml",
+    "bytes": 415,
+    "sha256": "B623E2725D46CF08292E319DAEBA12829EBB6AA5B232E3181F1557D20C9B3499"
+  },
+  {
+    "path": "source/baiyoujie-next/acquisition/accessibility/src/main/AndroidManifest.xml",
+    "bytes": 1065,
+    "sha256": "948A5B2BA6F82F450B87608853910393E6B071DFBB00AA91656EE22ED8C2058D"
+  },
+  {
+    "path": "source/baiyoujie-next/acquisition/accessibility/build.gradle.kts",
+    "bytes": 544,
+    "sha256": "F9D88272C4737C8790C2494D5AB81ED3FCCA8A34BB3B459E6C0133DE173859C3"
+  },
+  {
+    "path": "source/baiyoujie-next/acquisition/api/src/main/kotlin/cn/edu/ruc/zhixing/acquisition/api/ChatAdapter.kt",
+    "bytes": 1131,
+    "sha256": "07FF1B9FAA7323694D4A682AECD41AD31AFCEA1ECD9EC52D032C0269E73B67D2"
+  },
+  {
+    "path": "source/baiyoujie-next/acquisition/api/src/main/kotlin/cn/edu/ruc/zhixing/acquisition/api/MessageAcquirer.kt",
+    "bytes": 1368,
+    "sha256": "D89255C7B0F119D393BC2FEEB8B5E224DDCE551460EA79FC8B153C13440B3AEB"
+  },
+  {
+    "path": "source/baiyoujie-next/acquisition/api/src/main/kotlin/cn/edu/ruc/zhixing/acquisition/api/MessageBus.kt",
+    "bytes": 3675,
+    "sha256": "7FDB8BB417FF33C6CF52284D688BE3811FC02D85C35D5A30350B57C60D6B7D82"
+  },
+  {
+    "path": "source/baiyoujie-next/acquisition/api/src/main/kotlin/cn/edu/ruc/zhixing/acquisition/api/MessageDeduplicator.kt",
+    "bytes": 1549,
+    "sha256": "E43B38BA75006820F63E68273804C734B692B467274D63556DB7D0621A9E0AE6"
+  },
+  {
+    "path": "source/baiyoujie-next/acquisition/api/build.gradle.kts",
+    "bytes": 627,
+    "sha256": "2F719DD27E2A71271B852CFD630B57FF131921A79E396F6871F490C449033E2C"
+  },
+  {
+    "path": "source/baiyoujie-next/acquisition/api/consumer-rules.pro",
+    "bytes": 91,
+    "sha256": "FC993B51FA748723C8A46E68EF0C019CFA4296063188119B55DD4B2D425CFD3A"
+  },
+  {
+    "path": "source/baiyoujie-next/acquisition/db/src/main/kotlin/cn/edu/ruc/zhixing/acquisition/db/DbAcquirer.kt",
+    "bytes": 3360,
+    "sha256": "FEC6E529C8D6B89F2BE3FE875ED7BD2B1CD1DAAD68EE343208E91BD0A7B76A0F"
+  },
+  {
+    "path": "source/baiyoujie-next/acquisition/db/src/main/kotlin/cn/edu/ruc/zhixing/acquisition/db/RootTool.kt",
+    "bytes": 1615,
+    "sha256": "069014C0D1FEE266B06ABB445960A560401779FA09A7356C16E180762CF1D5A7"
+  },
+  {
+    "path": "source/baiyoujie-next/acquisition/db/src/main/AndroidManifest.xml",
+    "bytes": 213,
+    "sha256": "2A195AC55DF1AEED137C36969F53ED6713466EE5CA232C78894294C8ED6178E2"
+  },
+  {
+    "path": "source/baiyoujie-next/acquisition/db/build.gradle.kts",
+    "bytes": 916,
+    "sha256": "4E038C6E9E0C70CB688E83B8B6F1A49A4CD20A2E62E254E94B1E90B1F30C6930"
+  },
+  {
+    "path": "source/baiyoujie-next/acquisition/notify/src/main/kotlin/cn/edu/ruc/zhixing/acquisition/notify/AbstractChatAdapter.kt",
+    "bytes": 2649,
+    "sha256": "84620BDCB990B715E83D33197DBAF133208EC9CFE9290F14AD3198BC6AA72726"
+  },
+  {
+    "path": "source/baiyoujie-next/acquisition/notify/src/main/kotlin/cn/edu/ruc/zhixing/acquisition/notify/NotifyAcquirer.kt",
+    "bytes": 3521,
+    "sha256": "BB3523BA2B7F143DF694967C64E07540B51750CB98FC9094E4762DA82DF19361"
+  },
+  {
+    "path": "source/baiyoujie-next/acquisition/notify/src/main/kotlin/cn/edu/ruc/zhixing/acquisition/notify/QqAdapter.kt",
+    "bytes": 664,
+    "sha256": "189F8217EF8263EF41075F1360991028F1909DE8C042A07A5C0181C66A38C550"
+  },
+  {
+    "path": "source/baiyoujie-next/acquisition/notify/src/main/kotlin/cn/edu/ruc/zhixing/acquisition/notify/SmsAdapter.kt",
+    "bytes": 255,
+    "sha256": "5D06C78F738BB3A7033F4A1135127217195258E25526F75239132763555E7A75"
+  },
+  {
+    "path": "source/baiyoujie-next/acquisition/notify/src/main/kotlin/cn/edu/ruc/zhixing/acquisition/notify/WeChatAdapter.kt",
+    "bytes": 820,
+    "sha256": "1FE55132CC98D472AEF61C85C9061F3CBE13C2F26D2BFE42ECBEEB1F8C6C3834"
+  },
+  {
+    "path": "source/baiyoujie-next/acquisition/notify/src/main/res/values/strings.xml",
+    "bytes": 311,
+    "sha256": "0707579EA975B4EBDACA3921B892C38F28DE696419203088F95869045110344F"
+  },
+  {
+    "path": "source/baiyoujie-next/acquisition/notify/src/main/AndroidManifest.xml",
+    "bytes": 958,
+    "sha256": "16C4106104C112EC8355A9685CF0F00EB0479EE7AFE332890E35D62C03816842"
+  },
+  {
+    "path": "source/baiyoujie-next/acquisition/notify/build.gradle.kts",
+    "bytes": 537,
+    "sha256": "4636E22E2D3B506541FAF2AB25506C53FF020F0902D9C6794F579416A76AEDC9"
+  },
+  {
+    "path": "source/baiyoujie-next/agent/memory/src/main/kotlin/cn/edu/ruc/zhixing/agent/memory/MemoryStore.kt",
+    "bytes": 864,
+    "sha256": "FD31B48B1E4D7933E22AB0931F605852972BC214F68D49ADF7760DF8795BBF7D"
+  },
+  {
+    "path": "source/baiyoujie-next/agent/memory/src/test/kotlin/cn/edu/ruc/zhixing/agent/memory/MemoryTickerTest.kt",
+    "bytes": 1456,
+    "sha256": "978810F32FBFD48F7B421531B85D2481801CB00BBA6C2E8B095A62C625E714B7"
+  },
+  {
+    "path": "source/baiyoujie-next/agent/memory/build.gradle.kts",
+    "bytes": 509,
+    "sha256": "88920633075997C075AAD75C6101BD860CAB72C5C3C66F60D2FF49A4DD76A7B3"
+  },
+  {
+    "path": "source/baiyoujie-next/app/src/androidTest/kotlin/cn/edu/ruc/zhixing/PersistenceTest.kt",
+    "bytes": 7496,
+    "sha256": "60C6E027426C04DF6768214A2FF52D147DE9E8D5616823923519E84591052A0F"
+  },
+  {
+    "path": "source/baiyoujie-next/app/src/androidTest/kotlin/cn/edu/ruc/zhixing/UiFixtureTest.kt",
+    "bytes": 1895,
+    "sha256": "FDD4E9EDE7AFEC0EE3ECC2E841F359A11823311BFD9E0947A7EB3D2E111E8182"
+  },
+  {
+    "path": "source/baiyoujie-next/app/src/main/kotlin/cn/edu/ruc/zhixing/AppContainer.kt",
+    "bytes": 11482,
+    "sha256": "FD0BA9B0749203235F159E73D86EAA49C7A67855E386C6690B8DE784CF9EA8F0"
+  },
+  {
+    "path": "source/baiyoujie-next/app/src/main/kotlin/cn/edu/ruc/zhixing/CompanionRuntime.kt",
+    "bytes": 4873,
+    "sha256": "AC596ADF1B1DFFDD1F049857393246E5A8A3CAAB43CB9FBA7125B093D1C949BD"
+  },
+  {
+    "path": "source/baiyoujie-next/app/src/main/kotlin/cn/edu/ruc/zhixing/CompanionSettings.kt",
+    "bytes": 3519,
+    "sha256": "E5BF8DE5E1A638847C9D48D36CF589F840609A1F152189F78A21C3A6C6F23960"
+  },
+  {
+    "path": "source/baiyoujie-next/app/src/main/kotlin/cn/edu/ruc/zhixing/CompanionViewModel.kt",
+    "bytes": 5094,
+    "sha256": "C576322D98B9EF559372A46FDC9CEC5E41A3E929330D2F46CA1DB628DD78828B"
+  },
+  {
+    "path": "source/baiyoujie-next/app/src/main/kotlin/cn/edu/ruc/zhixing/MainActivity.kt",
+    "bytes": 3694,
+    "sha256": "E4A94B19FE57A00E3B09AF71CF70BA1320B42097955B2493D4218974E02107D7"
+  },
+  {
+    "path": "source/baiyoujie-next/app/src/main/kotlin/cn/edu/ruc/zhixing/MainViewModel.kt",
+    "bytes": 5278,
+    "sha256": "58B57F3CFB3641F9E4D63F4A3D35D816345E2523ABD63EBD08A2F538CF3BD246"
+  },
+  {
+    "path": "source/baiyoujie-next/app/src/main/kotlin/cn/edu/ruc/zhixing/ZhixingApp.kt",
+    "bytes": 364,
+    "sha256": "0E20A698C0AA1A3948A712355C400400A19808C1CDB62A810A6F09BE1F590DE0"
+  },
+  {
+    "path": "source/baiyoujie-next/app/src/main/res/drawable/ic_launcher.xml",
+    "bytes": 612,
+    "sha256": "0C090682C22736A8B4E5C66849ABD06E82D64B58239B0E0B35446D7F2074200A"
+  },
+  {
+    "path": "source/baiyoujie-next/app/src/main/res/values/strings.xml",
+    "bytes": 111,
+    "sha256": "63CDD457AB76D689424870B8C6B03A2F563A671712C50E3455A83EDDF4C9EA0A"
+  },
+  {
+    "path": "source/baiyoujie-next/app/src/main/res/values/themes.xml",
+    "bytes": 281,
+    "sha256": "1C8BFACB868B37CA78EC8FECBA7EBF9B849113F9F4819077CE2D077508033BFB"
+  },
+  {
+    "path": "source/baiyoujie-next/app/src/main/AndroidManifest.xml",
+    "bytes": 833,
+    "sha256": "5E760D0E109A823346984FCAF2B829AA20284FFF48CB02DC254CB97D64A9632D"
+  },
+  {
+    "path": "source/baiyoujie-next/app/build.gradle.kts",
+    "bytes": 2647,
+    "sha256": "304920C86AA980E1E2FEB545D8B8DA6D463ECC6D075C356CE6318C23AF2D4FE2"
+  },
+  {
+    "path": "source/baiyoujie-next/app/proguard-rules.pro",
+    "bytes": 169,
+    "sha256": "9A1EFDF6CB3E7133F8EDADA83FA3FA8D54618A573910310419C91D3DAC0E1515"
+  },
+  {
+    "path": "source/baiyoujie-next/companion/ai/src/main/kotlin/cn/edu/ruc/zhixing/companion/ai/config/LlmConfig.kt",
+    "bytes": 500,
+    "sha256": "13D78139C6034E8BEC611AF1391FFDD1B06CE5A857E75974BE1922417839EA58"
+  },
+  {
+    "path": "source/baiyoujie-next/companion/ai/src/main/kotlin/cn/edu/ruc/zhixing/companion/ai/emotion/EmotionDetector.kt",
+    "bytes": 894,
+    "sha256": "9E8A94F846CACD11543F956ABB163FFD296BE9C75330D1480F2BE63CC9F63CB8"
+  },
+  {
+    "path": "source/baiyoujie-next/companion/ai/src/main/kotlin/cn/edu/ruc/zhixing/companion/ai/openai/OpenAiLlmClient.kt",
+    "bytes": 6787,
+    "sha256": "9D0CC8F8F30E7BC4E32499010695063866C1EF03B32120676BBB97EC0F609519"
+  },
+  {
+    "path": "source/baiyoujie-next/companion/ai/src/main/kotlin/cn/edu/ruc/zhixing/companion/ai/persona/PersonaPromptBuilder.kt",
+    "bytes": 1583,
+    "sha256": "9C2F022EE93AB648032A91BAFE0692EAB7B9A10ABDBF2543447D68AF17037D1A"
+  },
+  {
+    "path": "source/baiyoujie-next/companion/ai/src/main/kotlin/cn/edu/ruc/zhixing/companion/ai/shape/ResponseShaper.kt",
+    "bytes": 1659,
+    "sha256": "86804007D45D568B836B6943AF1D7CAE154B217B597FCE48C303357A822AF4A0"
+  },
+  {
+    "path": "source/baiyoujie-next/companion/ai/src/main/kotlin/cn/edu/ruc/zhixing/companion/ai/LlmClient.kt",
+    "bytes": 892,
+    "sha256": "30C7148FC188B9150B344F087D45C8F1E336BDBAB267A5186272063DE040DAA0"
+  },
+  {
+    "path": "source/baiyoujie-next/companion/ai/src/test/kotlin/cn/edu/ruc/zhixing/companion/ai/CompanionRulesTest.kt",
+    "bytes": 2913,
+    "sha256": "8AE7D67EB0F07619D27490B3FEBE1283745B3A0A6789CD8CE2D12063957B44B1"
+  },
+  {
+    "path": "source/baiyoujie-next/companion/ai/build.gradle.kts",
+    "bytes": 700,
+    "sha256": "E3EFE24BFBDF3DB1CE2ACB84F64E40228469E6AA6E0C8B87D13E041218B4A8E8"
+  },
+  {
+    "path": "source/baiyoujie-next/companion/chat/src/main/kotlin/cn/edu/ruc/zhixing/companion/chat/desensitize/Desensitizer.kt",
+    "bytes": 824,
+    "sha256": "22B3BD323CF669C05DE47570BEEFCA657B4F886CA4556F1B083663E63C0935D4"
+  },
+  {
+    "path": "source/baiyoujie-next/companion/chat/src/main/kotlin/cn/edu/ruc/zhixing/companion/chat/ChatRepository.kt",
+    "bytes": 4209,
+    "sha256": "9EB5751C5C38DBD54AF173B4B577DE596D1E700ED91F6AABAB99AFF6202C6F08"
+  },
+  {
+    "path": "source/baiyoujie-next/companion/chat/src/main/kotlin/cn/edu/ruc/zhixing/companion/chat/ChatStateMachine.kt",
+    "bytes": 829,
+    "sha256": "0600938A5F5D46CF6818C3D31EF9AB80321BEFC6FA765469A1AEC652C88A7378"
+  },
+  {
+    "path": "source/baiyoujie-next/companion/chat/src/main/AndroidManifest.xml",
+    "bytes": 13,
+    "sha256": "571F2735FAF5E857752EE057AC8EF63425576A721616C60B86EE5D4C0A2D682F"
+  },
+  {
+    "path": "source/baiyoujie-next/companion/chat/build.gradle.kts",
+    "bytes": 816,
+    "sha256": "67045B2ED224E19374DBC9BA997B52C35565C8EFF677BE586D31760B21B90FE1"
+  },
+  {
+    "path": "source/baiyoujie-next/core/common/src/main/kotlin/cn/edu/ruc/zhixing/core/common/log/ZhixingLog.kt",
+    "bytes": 1006,
+    "sha256": "E9657DA00D6269D6D5D46AFC541039B5B0C55D23938379BEFBD072E59904BFCD"
+  },
+  {
+    "path": "source/baiyoujie-next/core/common/src/main/kotlin/cn/edu/ruc/zhixing/core/common/time/TimeKt.kt",
+    "bytes": 1109,
+    "sha256": "B4FFC9B78FBB17D1A33DD3A032A58BBB729864520A29CFC4CDADD0A0BCCCDE8D"
+  },
+  {
+    "path": "source/baiyoujie-next/core/common/build.gradle.kts",
+    "bytes": 458,
+    "sha256": "28580600A58603B024CE76297F1357607DB354B58EE19A3649C4C4DC4D106796"
+  },
+  {
+    "path": "source/baiyoujie-next/core/model/src/main/kotlin/cn/edu/ruc/zhixing/core/model/companion/AvatarContract.kt",
+    "bytes": 942,
+    "sha256": "84B483BDD81AAE5EA4DC589BF2C4F474C2D1B5DDA21982A559621524CF0D46AD"
+  },
+  {
+    "path": "source/baiyoujie-next/core/model/src/main/kotlin/cn/edu/ruc/zhixing/core/model/companion/CompanionModels.kt",
+    "bytes": 852,
+    "sha256": "51BD832113AC9D35DBFBCA9CD314F9863A45E4FC7F15E08890CAD89D7534CDC9"
+  },
+  {
+    "path": "source/baiyoujie-next/core/model/src/main/kotlin/cn/edu/ruc/zhixing/core/model/focus/FocusModels.kt",
+    "bytes": 892,
+    "sha256": "5FA14DBB6A025FE92CEAC177901699C31EC99EF9EC8AA0396250E64B7B1D833F"
+  },
+  {
+    "path": "source/baiyoujie-next/core/model/src/main/kotlin/cn/edu/ruc/zhixing/core/model/memory/MemoryModels.kt",
+    "bytes": 620,
+    "sha256": "BE950C3E9B0243B9A8A8FC0102D4EC2A62EBA677ED058847A1D8A70E5DEDED00"
+  },
+  {
+    "path": "source/baiyoujie-next/core/model/src/main/kotlin/cn/edu/ruc/zhixing/core/model/planner/CoursePlan.kt",
+    "bytes": 4716,
+    "sha256": "8FDE49E8EB1B4E8C2A2672098B6CACCC65DC3BE6194C651CA6F80C5F1ABABDB3"
+  },
+  {
+    "path": "source/baiyoujie-next/core/model/src/main/kotlin/cn/edu/ruc/zhixing/core/model/planner/PlannerModels.kt",
+    "bytes": 1035,
+    "sha256": "C744F136EDC5F69461E04AED31BC6B1AA0E7A7469D2BB920AC3B8F782C470576"
+  },
+  {
+    "path": "source/baiyoujie-next/core/model/src/main/kotlin/cn/edu/ruc/zhixing/core/model/planner/Suggestion.kt",
+    "bytes": 570,
+    "sha256": "B7962CD39D3AE8A243663C4B6B781DF4252FF04B0B46C0CAB1F41E8E9CDCD77C"
+  },
+  {
+    "path": "source/baiyoujie-next/core/model/src/main/kotlin/cn/edu/ruc/zhixing/core/model/Category.kt",
+    "bytes": 471,
+    "sha256": "0D951F041710E057BA426BEA796753A11C1F5714BA3F5AF52638ED58E5BA668C"
+  },
+  {
+    "path": "source/baiyoujie-next/core/model/src/main/kotlin/cn/edu/ruc/zhixing/core/model/Channel.kt",
+    "bytes": 476,
+    "sha256": "4FD187A868C1238C2F165253E10E76AADA064F9E0C46862A4B8CD8716F25BC1B"
+  },
+  {
+    "path": "source/baiyoujie-next/core/model/src/main/kotlin/cn/edu/ruc/zhixing/core/model/ChatMessage.kt",
+    "bytes": 949,
+    "sha256": "E59B3CDAC41950738E17258880174F7F30A30D909D33E46FCE813990BCA21B5E"
+  },
+  {
+    "path": "source/baiyoujie-next/core/model/src/main/kotlin/cn/edu/ruc/zhixing/core/model/Classification.kt",
+    "bytes": 459,
+    "sha256": "8B804737D9780C0F7E64312C66E9070BB0B585BCF6890C8FAD8AECB19290DB61"
+  },
+  {
+    "path": "source/baiyoujie-next/core/model/src/main/kotlin/cn/edu/ruc/zhixing/core/model/PriorityLevel.kt",
+    "bytes": 528,
+    "sha256": "08150B06DDE3578C37ABF6DF97A3FC320E6B8A62237A8B8F53E3AF524129772F"
+  },
+  {
+    "path": "source/baiyoujie-next/core/model/src/main/kotlin/cn/edu/ruc/zhixing/core/model/SourceQuality.kt",
+    "bytes": 701,
+    "sha256": "FD4F9D9F8CCA745F9E17636642E907BCD4B6635DEA32D7DBD4590245167A77F1"
+  },
+  {
+    "path": "source/baiyoujie-next/core/model/build.gradle.kts",
+    "bytes": 404,
+    "sha256": "A2E6FC736BBD849DF97D35FFDDE22901860827734EA56711DE0D88D8486D37A7"
+  },
+  {
+    "path": "source/baiyoujie-next/docs/art/README.md",
+    "bytes": 629,
+    "sha256": "C38EF58E86365BE6A5996AB6D32FB15C002D4EEA127AE63D6B7592D00B3FC7FF"
+  },
+  {
+    "path": "source/baiyoujie-next/docs/handoffs/_TEMPLATE.md",
+    "bytes": 568,
+    "sha256": "01525828069CB19C3FC6F548D68B2EC9975BD4A175F32C15D63C6DAC8AB11EB5"
+  },
+  {
+    "path": "source/baiyoujie-next/docs/handoffs/README.md",
+    "bytes": 343,
+    "sha256": "E0F2FAA57DE5ECD67BB9E5BAB257270F46EDCEA0F2E81C88AF410302C5EC43F1"
+  },
+  {
+    "path": "source/baiyoujie-next/docs/CONTRACTS.md",
+    "bytes": 1889,
+    "sha256": "0C4A34F568E3DABD03B8DDE82AFE1FE3097B25205902BCB97A82642F4E7609FB"
+  },
+  {
+    "path": "source/baiyoujie-next/docs/DECISIONS.md",
+    "bytes": 1577,
+    "sha256": "46EE31A75E5864623E3F2DB6A845E557556ECE464BF306F3BE3306DC17B3E001"
+  },
+  {
+    "path": "source/baiyoujie-next/docs/DESIGN_SYSTEM.md",
+    "bytes": 1661,
+    "sha256": "F04BB60B209A445EED04FA69F7E10DA1E8405F9DD89E04EB76E31F5F8DFF0142"
+  },
+  {
+    "path": "source/baiyoujie-next/docs/OWNERSHIP.md",
+    "bytes": 1688,
+    "sha256": "9ED9EB5149E82E0F87D204EF0E04B2A1E9B6589B92EE04A9E9EB7A0BC9AD487A"
+  },
+  {
+    "path": "source/baiyoujie-next/docs/PROGRESS-2026-09-04.md",
+    "bytes": 4422,
+    "sha256": "66FDBBDB2B310E52A7575700DF1A74B55949AC841FFFBDAE01AAA8254529BA25"
+  },
+  {
+    "path": "source/baiyoujie-next/docs/PROGRESS.md",
+    "bytes": 7279,
+    "sha256": "65BB2952B82DC3BF2160F4399873F50FEB5AC3F6A01CE7DDF562CCDE97E24FF5"
+  },
+  {
+    "path": "source/baiyoujie-next/docs/TEAM_WORKFLOW.md",
+    "bytes": 2809,
+    "sha256": "32471EC8181587301D2E59C28A765829EBEBD034B8A3134AE8B4DC008A2C9320"
+  },
+  {
+    "path": "source/baiyoujie-next/engine/adaptive/src/main/kotlin/cn/edu/ruc/zhixing/engine/adaptive/AdaptiveImportanceClassifier.kt",
+    "bytes": 2815,
+    "sha256": "078CCFCED255852F99447832BF021906F998F2D2A1FF4371AF439EA03EF34DC4"
+  },
+  {
+    "path": "source/baiyoujie-next/engine/adaptive/src/main/kotlin/cn/edu/ruc/zhixing/engine/adaptive/AdaptiveModel.kt",
+    "bytes": 2593,
+    "sha256": "D195D7AA00ECD4362FC714A40F4D1D1975A994DB01E6AC4C4326C4424479EB2F"
+  },
+  {
+    "path": "source/baiyoujie-next/engine/adaptive/src/main/kotlin/cn/edu/ruc/zhixing/engine/adaptive/FeatureVectorizer.kt",
+    "bytes": 1784,
+    "sha256": "2DABC2B5BA8E93E55B56A44A8BB3B343C4096BB2988263FBF40B49F749B68329"
+  },
+  {
+    "path": "source/baiyoujie-next/engine/adaptive/build.gradle.kts",
+    "bytes": 535,
+    "sha256": "4EF418E329705B46DE378DBCB780364639C85BA9305708CFF70EC9FBF4F9EB91"
+  },
+  {
+    "path": "source/baiyoujie-next/engine/classifier/src/main/kotlin/cn/edu/ruc/zhixing/engine/classifier/ImportanceClassifier.kt",
+    "bytes": 557,
+    "sha256": "C2C5E8A4885DBFCE03537EAB78FA58EF6D388BF5BD908773A48CE7F9F79D68E1"
+  },
+  {
+    "path": "source/baiyoujie-next/engine/classifier/src/main/kotlin/cn/edu/ruc/zhixing/engine/classifier/ImportanceEngine.kt",
+    "bytes": 2136,
+    "sha256": "C85DE679CC0F1CAE4B4401ADA65CAD0B10DBA2752B3A2201390178B5601C7759"
+  },
+  {
+    "path": "source/baiyoujie-next/engine/classifier/build.gradle.kts",
+    "bytes": 463,
+    "sha256": "8592B9FCDF6B216D47C797359FF2D8023DE7D5CACC68D346155D23A8E5ECA48E"
+  },
+  {
+    "path": "source/baiyoujie-next/engine/feature/src/main/kotlin/cn/edu/ruc/zhixing/engine/feature/FeatureExtractor.kt",
+    "bytes": 2664,
+    "sha256": "B1701E7DE0437E66E7D1B739C0FB0EF6C3D4FC9A735856F817217DDC60355D40"
+  },
+  {
+    "path": "source/baiyoujie-next/engine/feature/src/main/kotlin/cn/edu/ruc/zhixing/engine/feature/MessageFeatures.kt",
+    "bytes": 975,
+    "sha256": "80200447DD1F0645156C008F49868865AA7423945CB6761BD010D5AA8D718098"
+  },
+  {
+    "path": "source/baiyoujie-next/engine/feature/build.gradle.kts",
+    "bytes": 427,
+    "sha256": "AF0E6EBD7215E3D7FC8E478CD797E3710A4965AACC82E9079BD011E2FBED7FF2"
+  },
+  {
+    "path": "source/baiyoujie-next/engine/rule/src/main/kotlin/cn/edu/ruc/zhixing/engine/rule/RuleClassifier.kt",
+    "bytes": 2764,
+    "sha256": "C4BD71B949310CE85FE1FC488470C720379A5E56C460CE1866D2F4205DAA59B3"
+  },
+  {
+    "path": "source/baiyoujie-next/engine/rule/src/main/kotlin/cn/edu/ruc/zhixing/engine/rule/RuleConfig.kt",
+    "bytes": 977,
+    "sha256": "448BF299AE0FAA7B9447DA3A7ADBD8D68DE5A044F15576B4A2D7281EA30E0DB4"
+  },
+  {
+    "path": "source/baiyoujie-next/engine/rule/build.gradle.kts",
+    "bytes": 438,
+    "sha256": "CD4CABB727F524CA35838B6DC327E200DA6128EF7DA972294B6C7F97EF758FDF"
+  },
+  {
+    "path": "source/baiyoujie-next/focus/ctdp/src/main/AndroidManifest.xml",
+    "bytes": 13,
+    "sha256": "571F2735FAF5E857752EE057AC8EF63425576A721616C60B86EE5D4C0A2D682F"
+  },
+  {
+    "path": "source/baiyoujie-next/focus/ctdp/build.gradle.kts",
+    "bytes": 637,
+    "sha256": "111A427EED648C5E2D46A3803C5E6AE8EC8AED9A83AF7E08C57824412DC21530"
+  },
+  {
+    "path": "source/baiyoujie-next/gradle/wrapper/gradle-wrapper.jar",
+    "bytes": 43583,
+    "sha256": "2DB75C40782F5E8BA1FC278A5574BAB070ADCCB2D21CA5A6E5ED840888448046"
+  },
+  {
+    "path": "source/baiyoujie-next/gradle/wrapper/gradle-wrapper.properties",
+    "bytes": 253,
+    "sha256": "F7FAFB1DDD0A2A1D2EF01EAD773D9A88C1F889EF341E4E93C09C0724ADE79B32"
+  },
+  {
+    "path": "source/baiyoujie-next/gradle/libs.versions.toml",
+    "bytes": 3994,
+    "sha256": "3AFA6AB5AEC7BDE0C5C3F113C718BA7CE2D2EFD730DC7767D906A8738AA12605"
+  },
+  {
+    "path": "source/baiyoujie-next/planner/calendar/src/main/kotlin/cn/edu/ruc/zhixing/planner/calendar/CourseRepository.kt",
+    "bytes": 1130,
+    "sha256": "F7FBF22736AEB246BF8D2B7A57D0D7DD846EC12D43F54FF5DFED5433045D3004"
+  },
+  {
+    "path": "source/baiyoujie-next/planner/calendar/src/main/AndroidManifest.xml",
+    "bytes": 13,
+    "sha256": "571F2735FAF5E857752EE057AC8EF63425576A721616C60B86EE5D4C0A2D682F"
+  },
+  {
+    "path": "source/baiyoujie-next/planner/calendar/src/test/kotlin/cn/edu/ruc/zhixing/planner/calendar/CoursePlannerTest.kt",
+    "bytes": 2564,
+    "sha256": "42A31136B4CA55D60FF3F07286D042FF5767419E2BC6640BA115ECB9FA3FB0A0"
+  },
+  {
+    "path": "source/baiyoujie-next/planner/calendar/build.gradle.kts",
+    "bytes": 643,
+    "sha256": "4921049E70E150D0A89939DCFCA8D68D23F834A75902E53A5E15D6EF769F39AA"
+  },
+  {
+    "path": "source/baiyoujie-next/planner/extract/src/main/kotlin/cn/edu/ruc/zhixing/planner/extract/ExtractionService.kt",
+    "bytes": 5928,
+    "sha256": "FF2AC057AD53449B365BD7212E0F9DD9F5F0B589DCD14A3126FFB0DF1F2DF416"
+  },
+  {
+    "path": "source/baiyoujie-next/planner/extract/src/test/kotlin/cn/edu/ruc/zhixing/planner/extract/ExtractionServiceTest.kt",
+    "bytes": 4413,
+    "sha256": "6F5DA677231EAEE364B7F1350313A363C32326305BF8411DABEBF6465ED3F60D"
+  },
+  {
+    "path": "source/baiyoujie-next/planner/extract/build.gradle.kts",
+    "bytes": 509,
+    "sha256": "88920633075997C075AAD75C6101BD860CAB72C5C3C66F60D2FF49A4DD76A7B3"
+  },
+  {
+    "path": "source/baiyoujie-next/policy/permission/src/main/kotlin/cn/edu/ruc/zhixing/policy/permission/PermissionGovernor.kt",
+    "bytes": 2704,
+    "sha256": "F03C2E66E69A370FD9236BCBCBB582E9147CE5FDF675928074D3A5A178881FCD"
+  },
+  {
+    "path": "source/baiyoujie-next/policy/permission/src/main/AndroidManifest.xml",
+    "bytes": 111,
+    "sha256": "C8FE08B06E479EFC7E3D00476FFFE693A3E943E2B874B3C6A1BA5156FC180751"
+  },
+  {
+    "path": "source/baiyoujie-next/policy/permission/build.gradle.kts",
+    "bytes": 576,
+    "sha256": "B62B732C45D47ACAA7BDD4F0CB1B8B37ED8F7CB8BDB199EC022AA966496F66C3"
+  },
+  {
+    "path": "source/baiyoujie-next/presentation/ui/src/main/kotlin/cn/edu/ruc/zhixing/presentation/ui/avatar/AvatarPortrait.kt",
+    "bytes": 1889,
+    "sha256": "E164EC025A4BCDE4FF64C43023F188EAE0921EBA5979BC52670563562096C761"
+  },
+  {
+    "path": "source/baiyoujie-next/presentation/ui/src/main/kotlin/cn/edu/ruc/zhixing/presentation/ui/companion/model/CompanionModels.kt",
+    "bytes": 1142,
+    "sha256": "1E84F292DD3E3EBAC235EE4CD3AD3CE6F0AC5913E7608AB104CF56BBC79341D4"
+  },
+  {
+    "path": "source/baiyoujie-next/presentation/ui/src/main/kotlin/cn/edu/ruc/zhixing/presentation/ui/companion/noise/NoisePlayer.kt",
+    "bytes": 3302,
+    "sha256": "1D403436A898BAB5B84552C04BC5F640268A3633D782501C26E007512F4F5A34"
+  },
+  {
+    "path": "source/baiyoujie-next/presentation/ui/src/main/kotlin/cn/edu/ruc/zhixing/presentation/ui/companion/CharacterEditSheet.kt",
+    "bytes": 1477,
+    "sha256": "93191446CBC15708422230AFB31C06A43C660DF021A9817FA90374A63D0090FC"
+  },
+  {
+    "path": "source/baiyoujie-next/presentation/ui/src/main/kotlin/cn/edu/ruc/zhixing/presentation/ui/companion/CompanionScreen.kt",
+    "bytes": 6435,
+    "sha256": "F15F7DC699258AB60D77AB0AA14C805C46B4660F89EC7839C14808281D600E14"
+  },
+  {
+    "path": "source/baiyoujie-next/presentation/ui/src/main/kotlin/cn/edu/ruc/zhixing/presentation/ui/companion/CompanionViewModel.kt",
+    "bytes": 8259,
+    "sha256": "A40AA462122107A8AFDBAAA580BCB50AB786A48B1B970CFF83E3947A493C8B26"
+  },
+  {
+    "path": "source/baiyoujie-next/presentation/ui/src/main/kotlin/cn/edu/ruc/zhixing/presentation/ui/companion/PomodoroSheet.kt",
+    "bytes": 6591,
+    "sha256": "E9F491F23424E86D1B7EAF959A16DBE8B11410128BA68F123BCBEBC639BF8593"
+  },
+  {
+    "path": "source/baiyoujie-next/presentation/ui/src/main/kotlin/cn/edu/ruc/zhixing/presentation/ui/companion/SceneEditSheet.kt",
+    "bytes": 1999,
+    "sha256": "75EA000670A3773CC2A89C49341A861CF9F93EF1458FA78294B344CF596928BB"
+  },
+  {
+    "path": "source/baiyoujie-next/presentation/ui/src/main/kotlin/cn/edu/ruc/zhixing/presentation/ui/features/chat/ChatAvatar.kt",
+    "bytes": 2618,
+    "sha256": "ABB2BC53AAD010DCB529157830FC46F188236DB16B8D9659A633253AB7F8F78F"
+  },
+  {
+    "path": "source/baiyoujie-next/presentation/ui/src/main/kotlin/cn/edu/ruc/zhixing/presentation/ui/features/chat/ChatPane.kt",
+    "bytes": 7562,
+    "sha256": "6982F4391DC8F006682D1522428C5F038B9173DF56D56164FCF5BC279B456077"
+  },
+  {
+    "path": "source/baiyoujie-next/presentation/ui/src/main/kotlin/cn/edu/ruc/zhixing/presentation/ui/features/chat/SuggestionCard.kt",
+    "bytes": 3313,
+    "sha256": "88EF56E73543FF8DA57238659769012CA009BA7CDCD0F14F9BB583E83BA9F350"
+  },
+  {
+    "path": "source/baiyoujie-next/presentation/ui/src/main/kotlin/cn/edu/ruc/zhixing/presentation/ui/features/home/CompanionHome.kt",
+    "bytes": 2563,
+    "sha256": "C839BB106C3E84E33BDFA5555455C68B19C34955558B41767AEB0D92724B248A"
+  },
+  {
+    "path": "source/baiyoujie-next/presentation/ui/src/main/kotlin/cn/edu/ruc/zhixing/presentation/ui/features/schedule/CoursePane.kt",
+    "bytes": 11206,
+    "sha256": "C15763A36C82B37A7E4076F11B90650200888258DA9ACC4F939E69FBB6393BE5"
+  },
+  {
+    "path": "source/baiyoujie-next/presentation/ui/src/main/kotlin/cn/edu/ruc/zhixing/presentation/ui/features/schedule/SchedulePane.kt",
+    "bytes": 6129,
+    "sha256": "BA7D953BFD23EE294B3C0EF3832426C6E26884E20DD874EEED15D710BF12B76B"
+  },
+  {
+    "path": "source/baiyoujie-next/presentation/ui/src/main/kotlin/cn/edu/ruc/zhixing/presentation/ui/features/settings/SettingsPane.kt",
+    "bytes": 4803,
+    "sha256": "76EEB174621FBD2EACB71E8335F21C7697BAD784E485470C0DBBD449F574EBEA"
+  },
+  {
+    "path": "source/baiyoujie-next/presentation/ui/src/main/kotlin/cn/edu/ruc/zhixing/presentation/ui/home/HomeScreen.kt",
+    "bytes": 4439,
+    "sha256": "217D713BC674DB9AF3CB81A535E0FC7092A37E71250950CCEFD4F86AF7B3214A"
+  },
+  {
+    "path": "source/baiyoujie-next/presentation/ui/src/main/kotlin/cn/edu/ruc/zhixing/presentation/ui/messages/MessageListScreen.kt",
+    "bytes": 6783,
+    "sha256": "928DF4D366F27F66E81DDF09B3D38E3EAA7A7045CB5045ECA04997F0778F071F"
+  },
+  {
+    "path": "source/baiyoujie-next/presentation/ui/src/main/kotlin/cn/edu/ruc/zhixing/presentation/ui/model/UiModels.kt",
+    "bytes": 1115,
+    "sha256": "6E3511451D222C68439972CCA841C8414CEEC080B3FEDD497C82544FF8DDDACB"
+  },
+  {
+    "path": "source/baiyoujie-next/presentation/ui/src/main/kotlin/cn/edu/ruc/zhixing/presentation/ui/theme/Theme.kt",
+    "bytes": 1971,
+    "sha256": "932D0E8177AB90AC5493F5EE1D3C5F8E83159DA6C3C60062797BBF86A9999C66"
+  },
+  {
+    "path": "source/baiyoujie-next/presentation/ui/src/main/kotlin/cn/edu/ruc/zhixing/presentation/ui/CompanionScaffold.kt",
+    "bytes": 7973,
+    "sha256": "7006D1D366412D58726FF8844F2F8ADA736F189A30B0E88C7BA9A6564C6980A9"
+  },
+  {
+    "path": "source/baiyoujie-next/presentation/ui/src/main/res/drawable/ic_companion_avatar_placeholder.xml",
+    "bytes": 783,
+    "sha256": "FC5A7DAAB4681EFBE4CB77A72387B2B462ACE49FA43F944D6167F6C13B1C261C"
+  },
+  {
+    "path": "source/baiyoujie-next/presentation/ui/src/main/res/drawable/ic_user_avatar_placeholder.xml",
+    "bytes": 435,
+    "sha256": "CB68924425B2E75554D91FE5E79F50483D9094E48E4C0AC841D184D1E8C0AAAF"
+  },
+  {
+    "path": "source/baiyoujie-next/presentation/ui/src/main/AndroidManifest.xml",
+    "bytes": 111,
+    "sha256": "C8FE08B06E479EFC7E3D00476FFFE693A3E943E2B874B3C6A1BA5156FC180751"
+  },
+  {
+    "path": "source/baiyoujie-next/presentation/ui/src/test/kotlin/cn/edu/ruc/zhixing/presentation/ui/companion/PomodoroTimeTest.kt",
+    "bytes": 671,
+    "sha256": "3B995E7B730920D892B37C1B4033A70E55FB46C4FEA6A3CAEBB988392D8F5009"
+  },
+  {
+    "path": "source/baiyoujie-next/presentation/ui/src/test/kotlin/cn/edu/ruc/zhixing/presentation/ui/NavigationContractTest.kt",
+    "bytes": 334,
+    "sha256": "2F62A2B8293ABA09B3BA1BB37DC853AB1E4CD5B9D54F085873B4A0D21D217D34"
+  },
+  {
+    "path": "source/baiyoujie-next/presentation/ui/build.gradle.kts",
+    "bytes": 1269,
+    "sha256": "60E4CBEAD1CF1A80496F8731DC3499199E0C93DF6FD2935206AEBF8F7D5459E0"
+  },
+  {
+    "path": "source/baiyoujie-next/storage/room/src/main/kotlin/cn/edu/ruc/zhixing/storage/room/chat/ChatDao.kt",
+    "bytes": 799,
+    "sha256": "186F5CAC55F37EED630D7169FFAF8746E23A20A0B4D11B275917FC88DE50C095"
+  },
+  {
+    "path": "source/baiyoujie-next/storage/room/src/main/kotlin/cn/edu/ruc/zhixing/storage/room/chat/ChatTurnEntity.kt",
+    "bytes": 441,
+    "sha256": "0C753BB4F1E55E25CCF2F82B070A0C0E747DBD463029192C7F27394F0894F00D"
+  },
+  {
+    "path": "source/baiyoujie-next/storage/room/src/main/kotlin/cn/edu/ruc/zhixing/storage/room/memory/MemoryDao.kt",
+    "bytes": 1779,
+    "sha256": "1BD780FFEF7EED82392151F287FF196B487EEB6D29663832FC9FE3C02C241E15"
+  },
+  {
+    "path": "source/baiyoujie-next/storage/room/src/main/kotlin/cn/edu/ruc/zhixing/storage/room/memory/MemoryEntity.kt",
+    "bytes": 456,
+    "sha256": "58D24AE0BE7148E6FC189AFEE9F4EB08B770587DC3F693EA4155CEDD16D32BA1"
+  },
+  {
+    "path": "source/baiyoujie-next/storage/room/src/main/kotlin/cn/edu/ruc/zhixing/storage/room/planner/CoursePlanEntity.kt",
+    "bytes": 461,
+    "sha256": "6597323C81139E6D93CDDB21342701F32EA9FF9523C3B51F4690D6DFFEDA07B7"
+  },
+  {
+    "path": "source/baiyoujie-next/storage/room/src/main/kotlin/cn/edu/ruc/zhixing/storage/room/planner/ScheduleDao.kt",
+    "bytes": 1506,
+    "sha256": "1CE350FC455B8DEC050CEB18FE7AFC0758150013D9D2E914B505C63F029AB5D7"
+  },
+  {
+    "path": "source/baiyoujie-next/storage/room/src/main/kotlin/cn/edu/ruc/zhixing/storage/room/planner/ScheduleEntity.kt",
+    "bytes": 466,
+    "sha256": "7AB4E4A85A183DF8D6118377E49A312CC075989CD9399FDEDF0309D129D60469"
+  },
+  {
+    "path": "source/baiyoujie-next/storage/room/src/main/kotlin/cn/edu/ruc/zhixing/storage/room/planner/SuggestionEntity.kt",
+    "bytes": 1800,
+    "sha256": "6B47DD49A08E851F09464C075C711E5BB9AB852D4595E47D868231133017DC1E"
+  },
+  {
+    "path": "source/baiyoujie-next/storage/room/src/main/kotlin/cn/edu/ruc/zhixing/storage/room/planner/SuggestionRepository.kt",
+    "bytes": 1229,
+    "sha256": "D41E4413ECA9FFB9C6011D918302AA0401CBB24D8B23A91863452E680ABE4A50"
+  },
+  {
+    "path": "source/baiyoujie-next/storage/room/src/main/kotlin/cn/edu/ruc/zhixing/storage/room/planner/TodoEntity.kt",
+    "bytes": 383,
+    "sha256": "1A5B1877C73F460319000C6D3B00C8A52FDFEB91538761230CBB4D1C3B002A55"
+  },
+  {
+    "path": "source/baiyoujie-next/storage/room/src/main/kotlin/cn/edu/ruc/zhixing/storage/room/AppDatabase.kt",
+    "bytes": 1655,
+    "sha256": "B4EE61F5FBBF757BE11DE72CCC813251ED9CFB75D02928C22A66A3D24CA5FE2D"
+  },
+  {
+    "path": "source/baiyoujie-next/storage/room/src/main/kotlin/cn/edu/ruc/zhixing/storage/room/CompanionMigrations.kt",
+    "bytes": 2625,
+    "sha256": "8ABECE65BADD22CBA3531B683FDDF3D05C5DE5F97BFB29B7CE1F872B4318C24E"
+  },
+  {
+    "path": "source/baiyoujie-next/storage/room/src/main/kotlin/cn/edu/ruc/zhixing/storage/room/FeedbackDao.kt",
+    "bytes": 419,
+    "sha256": "B6133DC3127F3E0C28A3C7B2D66FC88C196BD297E44619B4DFDE650721788AAA"
+  },
+  {
+    "path": "source/baiyoujie-next/storage/room/src/main/kotlin/cn/edu/ruc/zhixing/storage/room/FeedbackEvent.kt",
+    "bytes": 836,
+    "sha256": "5C23203285EBE36891728342F277F09324AEAA3AD807626083B55374D014A241"
+  },
+  {
+    "path": "source/baiyoujie-next/storage/room/src/main/kotlin/cn/edu/ruc/zhixing/storage/room/MessageDao.kt",
+    "bytes": 1209,
+    "sha256": "92BBE122C5A85C858E5AAF9F901D132E44EEA05D9485499F4794831C09FB2387"
+  },
+  {
+    "path": "source/baiyoujie-next/storage/room/src/main/kotlin/cn/edu/ruc/zhixing/storage/room/MessageEntity.kt",
+    "bytes": 752,
+    "sha256": "C6534E6B93191D0D1FDE57DFBF396551E7F734283D6307E3321C6D5D9D6108F1"
+  },
+  {
+    "path": "source/baiyoujie-next/storage/room/src/main/AndroidManifest.xml",
+    "bytes": 111,
+    "sha256": "C8FE08B06E479EFC7E3D00476FFFE693A3E943E2B874B3C6A1BA5156FC180751"
+  },
+  {
+    "path": "source/baiyoujie-next/storage/room/build.gradle.kts",
+    "bytes": 582,
+    "sha256": "ED756ED832D6BE497F8F7C5E3578738FAE268C5B39A483156B0B5DB7784A2564"
+  },
+  {
+    "path": "source/baiyoujie-next/tools/team-check.ps1",
+    "bytes": 3305,
+    "sha256": "39A4A6BB858F577E85F12A846049EB1B0807D945ACC6ED21A9E8CE1F637A766C"
+  },
+  {
+    "path": "source/baiyoujie-next/.editorconfig",
+    "bytes": 254,
+    "sha256": "E4059E2E49283DEDFE708A215F9C04935412D2F85616AF82ADAB8E336419633C"
+  },
+  {
+    "path": "source/baiyoujie-next/.gitattributes",
+    "bytes": 265,
+    "sha256": "BDFB5350DA1F6D38BB0BAFC8953CF63E8D9BE6E7179F7FC9F9427605CDF5A56B"
+  },
+  {
+    "path": "source/baiyoujie-next/.gitignore",
+    "bytes": 374,
+    "sha256": "635308D6A1E17B65D0E536919FD58C0CC6887AF737FFF5E5AE9C8F0DF3E83DFB"
+  },
+  {
+    "path": "source/baiyoujie-next/AGENTS.md",
+    "bytes": 1956,
+    "sha256": "58711D6F4293D0FA4618FECC87FBB798D9627B7A0F6E4BC88D14D1CB7C555896"
+  },
+  {
+    "path": "source/baiyoujie-next/build.gradle.kts",
+    "bytes": 434,
+    "sha256": "850E3999F18696A05A10201D9DC6FB170E7A639FB6A0BEDE07BA546F6DE0EE9E"
+  },
+  {
+    "path": "source/baiyoujie-next/gradle.properties",
+    "bytes": 229,
+    "sha256": "D99DD628CB29584D7418DBE46A3004497F291B9622FA0D3A8810D042B43F3F85"
+  },
+  {
+    "path": "source/baiyoujie-next/gradlew",
+    "bytes": 8762,
+    "sha256": "A3648413B47EF77AF21D5EBC36C687C7D103AAEF3E17F33DE7D4F080A6F300A3"
+  },
+  {
+    "path": "source/baiyoujie-next/gradlew.bat",
+    "bytes": 2966,
+    "sha256": "57931B17DD228E5C24DAC90E815D0BF82477E831A4618DFAB4136F5446B42A9F"
+  },
+  {
+    "path": "source/baiyoujie-next/README.md",
+    "bytes": 1892,
+    "sha256": "E76ECED908614BE45BB86E5E4E3E8C76974A8B090D4F5A6EF2D3E8C682A1550C"
+  },
+  {
+    "path": "source/baiyoujie-next/settings.gradle.kts",
+    "bytes": 946,
+    "sha256": "2F0945F01C90443C0CB80068C803E653482DA7F4C7943263F7918582F32571C2"
+  },
+  {
+    "path": "requirements/知行伴_APP策划稿_Codex执行版.md",
+    "bytes": 36267,
+    "sha256": "C46CAE14167DB8213930ADA3C8A7EB1E7F6A823DC57443A9B846B17AC48F0969"
+  },
+  {
+    "path": "requirements/知行伴_技术白皮书_技术问题与实现流程.md",
+    "bytes": 34711,
+    "sha256": "CF05F2E09A1C1047322F3A276A2A1AAF13F0352BC9C3B4534B4C243C6FCBCCA8"
+  },
+  {
+    "path": "artifacts/user-supplied-original.apk",
+    "bytes": 23907810,
+    "sha256": "B4E96CE371318DF4465EFA2D3F6B823951DD1BE39873EB0DABDE6A0D98E1AED4"
+  },
+  {
+    "path": "artifacts/latest-available-development.apk",
+    "bytes": 26873775,
+    "sha256": "2A4F2C079211FE202F0C331F3FECB4751EE16B8D133962AA82BFC9CD6EE48CA9"
+  },
+  {
+    "path": "verification/delivery-build.log",
+    "bytes": 21593,
+    "sha256": "67DFF0925DE90FFC4C0103B57140D655A8A3C89AA25DAFFFF921B490D46098AD"
+  },
+  {
+    "path": "verification/full-build-and-unit-tests.log",
+    "bytes": 24566,
+    "sha256": "6C90DA0509FE3A89A4B0E46C433C0AFDCA5303B7D5003C0B06C7E4E8FDEECFB5"
+  },
+  {
+    "path": "verification/android-device-tests.log",
+    "bytes": 3985,
+    "sha256": "DBC5F29EF5027A010EAC588F7FEC91807216261DD1ABB43DBF322F931DE443E5"
+  }
+]
