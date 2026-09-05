@@ -1,0 +1,26 @@
+# 文件所有权与分工
+
+| 负责人 | 分支 | 可直接修改 |
+|---|---|---|
+| 你（全局与对话） | feature/chat-and-app-shell | companion/**、features/home/**、features/chat/**、features/settings/**、对话测试、设计方案 |
+| zzj（日历与消息） | feature/calendar-and-message | planner/**、acquisition/**、engine/**、features/schedule/**、messages/** 及对应测试 |
+| zzk（形象与美术） | feature/avatar-and-art | avatar/**、UI 模块的 drawable/mipmap/font/raw 美术资源、docs/art/** |
+| 集成 Agent | integration | 公共模型、数据库、应用装配、导航、主题、依赖、Manifest、版本号和跨模块接线 |
+
+## 集成文件
+
+以下文件不在功能分支直接修改。负责人在交接单中描述需要，集成 Agent 统一处理：
+
+- app/src/main/**/MainActivity.kt、AppContainer.kt、CompanionRuntime.kt
+- presentation/ui/**/CompanionScaffold.kt 和 theme/**
+- core/model/**
+- storage/room/**/AppDatabase.kt 和 CompanionMigrations.kt
+- gradle/libs.versions.toml、settings.gradle.kts、所有 build.gradle.kts 和 Manifest
+
+## 冲突处理
+
+- 页面通过参数和领域模型交互，页面内不直接访问 Room、网络客户端或其他负责人的实现类。
+- zzj 若新增日程字段，先提交契约提案和迁移草案，不直接提高数据库版本。
+- zzk 若需要新状态，先在 docs/art/ 写状态映射提案，不直接改变聊天情绪枚举。
+- 你若需要日程数据，只消费 ScheduleEvent、TodoItem、Suggestion，不调用 zzj 的内部 DAO。
+- 同一个文件需要两人修改时，拆成两个提交，并由集成 Agent 在 integration 接线。

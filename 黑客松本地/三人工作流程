@@ -1,0 +1,56 @@
+# 三人协作与合并流程
+
+## 固定分支
+
+| 分支 | 使用者 | 用途 |
+|---|---|---|
+| `main` | 全队 | 可演示、可安装的稳定版本 |
+| `integration` | 集成 Agent | 三人功能的唯一汇合分支 |
+| `feature/chat-and-app-shell` | 你 | 全局设计、对话与设置 |
+| `feature/calendar-and-message` | zzj | 日历、日程、消息采集与整理 |
+| `feature/avatar-and-art` | zzk | 虚拟形象与美术资源 |
+
+功能分支不得互相合并，也不直接合并到 `main`。所有功能先通过 Pull Request 进入 `integration`，完成联合验证后，再由 `integration` 进入 `main`。
+
+## 每次开始工作
+
+```powershell
+git switch integration
+git pull --ff-only
+git switch <自己的功能分支>
+git rebase integration
+.\tools\team-check.ps1 -Role auto -BaseRef integration
+```
+
+发生冲突时不要整目录覆盖。保留双方提交，把公共契约、数据库、导航和依赖冲突写入交接单，由集成 Agent 处理。
+
+## 每次交付
+
+1. 只改 `docs/OWNERSHIP.md` 中属于自己的目录。
+2. 从 `docs/handoffs/_TEMPLATE.md` 复制一份交接单，文件名使用 `YYYYMMDD-姓名-功能.md`。
+3. 运行角色边界检查和负责模块的测试。
+4. 小步提交并推送自己的分支。
+5. 创建到 `integration` 的 Pull Request，附上交接单、截图和测试结果。
+
+## 集成 Agent 合并顺序
+
+1. 更新 `integration`，逐个读取三个 Pull Request 和交接单。
+2. 先合并公共契约最少的改动，再合并需要接线的改动；一次只合并一个分支。
+3. 公共模型、数据库迁移、导航、主题、依赖和 Manifest 只在 `integration` 修改。
+4. 每次合并后运行边界检查与完整单元测试；三方全部合入后构建 APK 并做设备回归。
+5. 更新 `docs/PROGRESS.md`，通过 `integration -> main` Pull Request 发布稳定版本。
+
+可交给同一个 AI Agent 的固定任务说明：
+
+> 请以 integration 为基线，依次审查并集成三个功能分支。先阅读 AGENTS.md、docs/OWNERSHIP.md、docs/CONTRACTS.md 和每个分支的交接单。不要用整目录覆盖；公共模型、数据库、导航、主题、依赖和 Manifest 仅在 integration 接线。每合并一个分支都运行边界检查和相关测试，最终运行完整测试、构建 APK、更新 PROGRESS.md，并列出仍需人工确认的问题。
+
+## 远程仓库设置
+
+在 GitHub 或 Gitee 创建私有空仓库后，由一人执行：
+
+```powershell
+git remote add origin <私有仓库地址>
+git push -u origin main integration feature/chat-and-app-shell feature/calendar-and-message feature/avatar-and-art
+```
+
+邀请另外两名成员，并为 `main` 和 `integration` 开启分支保护：禁止直接推送，要求 Pull Request、自动检查通过和至少一人审阅。

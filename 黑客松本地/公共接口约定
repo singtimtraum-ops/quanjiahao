@@ -1,0 +1,35 @@
+# 稳定接口契约
+
+版本：1.0。公共契约变更必须三人确认，并在交接单标注 breaking change。
+
+## 对话与 AI
+
+- ChatTurn 是持久化对话展示模型，dayBucket 固定为本机 yyyy-MM-dd。
+- UI 只调用 onSend、onStop、onConfirmSuggestion 和 onDismissSuggestion。
+- 建议只允许 PENDING 到 ACCEPTED 或 DISMISSED，不得跳过确认直接写入。
+- 工具调用只接受白名单；模型文本和工具参数都视为不可信输入。
+- 情绪模式优先于规划。SOOTHING 状态下不得主动生成学习任务。
+
+## 日程、课表与消息
+
+- 时间统一为 Unix epoch 毫秒；时区在输入边界明确处理，不传无时区日期时间。
+- ScheduleEvent、TodoItem、CoursePlan 和 Suggestion 是跨模块唯一数据格式。
+- EventSource 标识来源。重新生成课表只替换 COURSE 来源，不得删除手动或系统日历事件。
+- 消息采集输出 ChatMessage，分类输出 Classification。采集层不得直接写对话 UI。
+- P0/P1 可生成建议，但必须脱敏、受云端总开关控制，并经用户确认。
+- 不向微信、QQ 或其他应用自动发送消息。
+
+## 虚拟形象
+
+- 业务层只发送 AvatarSignal，美术层只呈现 AvatarState 对应画面。
+- 稳定情绪：NEUTRAL、HAPPY、SAD、STRESSED、FOCUS。
+- 稳定场景：DAY、NIGHT、CHATTING、FOCUSING。
+- zzk 可替换位图、序列帧或其他渲染实现，不得让调用方依赖动画内部细节。
+- 新状态先写提案，由集成 Agent 修改 AvatarContract.kt。
+
+## 数据与权限
+
+- 数据库版本只在集成分支修改，每次升级必须保留完整迁移链。
+- 通知监听、无障碍和云端理解是三个独立授权开关。
+- 云端关闭、服务商或密钥改变时，进行中的请求必须停止或拒绝结果入库。
+- APP 当前不申请发送通知权限，不实现免打扰。

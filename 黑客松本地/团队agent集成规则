@@ -1,0 +1,27 @@
+# 百忧解团队协作约束
+
+本文件对所有在本仓库工作的 AI Agent 生效。开始修改前必须阅读 docs/TEAM_WORKFLOW.md、docs/OWNERSHIP.md、docs/CONTRACTS.md、docs/DESIGN_SYSTEM.md 和 docs/DECISIONS.md。
+
+## 集成原则
+
+- main 只保存通过验收的稳定版本；功能先进入 integration。
+- 不把三个项目文件夹互相覆盖。只根据 Git 提交、差异和交接单合并。
+- 不修改不属于当前分工的目录。确需跨边界时，在交接单中提出，由集成分支完成。
+- MainActivity.kt、CompanionScaffold.kt、AppContainer.kt、CompanionRuntime.kt、AppDatabase.kt、迁移、版本目录和 Manifest 是集成文件。
+- 公共模型与接口位于 core/model。修改公共契约必须先更新 docs/CONTRACTS.md，并由三人确认。
+- 每项功能附测试；数据库改动必须附迁移测试。不得使用破坏性迁移。
+- 不提交 local.properties、密钥、聊天数据、模拟器数据、APK、构建目录或日志。
+- 不在日志、截图、测试样例、提交信息或交接单中写 API Key 和真实聊天内容。
+- 采集和云端处理默认关闭并分别征得同意。APP 当前不发送系统通知。
+- 番茄钟已进入实现阶段：必须按绝对结束时间恢复后台经过的倒计时；AstrBot 不在本轮工作范围。
+- 遇到用户未决定的产品问题必须询问，不可由 Agent 静默改变产品行为。
+
+## 集成 Agent 验收顺序
+
+1. 阅读各分支 docs/handoffs/ 交接单和 Git diff。
+2. 先处理公共契约，再合并独立实现，最后修改集成文件。
+3. 检查权限、数据库版本、依赖版本、导航与设计令牌。
+4. 运行 tools/team-check.ps1 -Role integration。
+5. 运行构建、单元测试和数据库迁移测试。
+6. 在独立开发包 cn.edu.ruc.zhixing.dev 上检查主页、对话、日程和小屏布局。
+7. 更新 docs/PROGRESS.md，生成 APK 和备份后才可合入 main。
